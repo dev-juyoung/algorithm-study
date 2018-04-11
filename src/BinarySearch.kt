@@ -1,5 +1,5 @@
-class BinarySearch {
-    fun implemented(list: Array<Int>, item: Int): Int? {
+class BinarySearch : AlgorithmContract {
+    private fun implemented(list: Array<Int>, item: Int): Int? {
         var low = 0
         var high = list.size - 1
 
@@ -19,9 +19,8 @@ class BinarySearch {
         return null
     }
 
-    fun execute() {
+    override fun execute() {
         val source = arrayOf(1, 3, 5, 7, 8)
-
         println("탐색 결과: ${implemented(source, 3)}")
         println("탐색 결과: ${implemented(source, -1)}")
     }
