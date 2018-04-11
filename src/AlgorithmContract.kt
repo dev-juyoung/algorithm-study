@@ -1,2 +1,3 @@
 interface AlgorithmContract {
+    fun execute()
 }
