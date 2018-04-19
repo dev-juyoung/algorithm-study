@@ -4,6 +4,7 @@ fun main(args: Array<String>) {
      * (매번 main 함수 만들기 귀찮으니까...)
      */
     // val targetAlgorithm = BinarySearch()
-    val targetAlgorithm = SelectionSort()
+    // val targetAlgorithm = SelectionSort()
+    val targetAlgorithm = Recursion()
     targetAlgorithm.execute()
 }
